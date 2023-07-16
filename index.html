@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!---Viewport --->  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="shortcut icon" href="./multimedia/img/Logo1Nmayusc.png" type="image/x-icon">
+<!---Iconos ---> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> <!---para agregar iconos, el link arriba de nuestro css siempre --->
+<!---Bootstrap --->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!---MI CSS ---> 
+    <link rel="stylesheet" href="./css/styles.css">
+ 
+</head>
+<body>
+    <header>
+        <!---
+        <p class="sello">Mermelada libre de sellos</p>
+        ---> 
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand tituloNav" ><img src="multimedia\img\textoNavBar.png" alt="Mermelada libre de sellos" class="logo-img"></a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/recetas.html">Recetas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="mermelada">
+            <!--- <h1 class="tituloprincipal">Naturel Gourmet</h1> --->
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" >
+                    <div class="naturel">
+                        <img src="./multimedia/img/Logo3naturelgourmet.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p class="resumen"> 
+                        Las mermeladas son totalmente naturales, libres de químicos, 
+                        aditivos e ingredientes artificiales.
+                        Receta artesanal, dónde la fruta, se cocina a fuego lento con jugos de 
+                        frutas hasta que alcanza el pico de sabor, sin aditivos artificiales ni 
+                        azúcares de caña o edulcorantes artificiales.
+                        El uso del jugo de uva concentrado, el subproducto dulce de la elaboración del vino, 
+                        crea una extensión más saludable que permite que 
+                        brille la bondad de la fruta. Su composición es 80 % fruta y 20 % jugo de uva concentrado. 
+                    </p>
+                </div>
+            </div>
+            <div class="row logotiposRow">
+                <div class="col-lg-12">
+                    <div class="logotipos">
+                        <img src="multimedia\img\sintacc img.png" class="img-fluid" alt="Responsive image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="tips1">
+        <div class="col">
+            <i class="fa-solid fa-list"></i>
+            <h4>Facil de comprar</h4>
+            <p>Utlizá el carrito de compras para hacer tu pedido de forma segura</p>
+        </div>
+        <div class="col">
+            <i class="fa-solid fa-paper-plane"></i> 
+            <h4>Envios a todo el pais</h4>
+            <p>Enviamos nuestras mermeladas a la puerta de tu casa</p>
+        </div>
+        <div class="col">
+            <i class="fa-solid fa-gifts"></i> 
+            <h4>Excelente calidad y apto para todos</h4>
+            <p>Una deliciosa opción para regalar, compartir y consumir en cualquier momento del día</p>
+        </div>
+    </section>
+    <div class="myCarouselDiv container-fluid col-lg-12">
+        <h2 class="CarouselTitulo"></h2>  
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+      
+          
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="multimedia\img\Frascosabiertos.jpg" alt="1" style="width:100%;">
+            </div>
+      
+            <div class="item">
+              <img src="multimedia\img\varios4.jpg" alt="2" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="multimedia\img\IMG-20210222-WA0048.jpg" alt="3" style="width:100%;">
+            </div>
+          </div>
+      
+          
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+              <div class="row">
+      
+                <div class="col-lg-4 col-md-6 footer-info">
+                </div>
+      
+                <div class="col-lg-2 col-md-6 footer-links">
+                  
+                </div>
+      
+                <div class="col-lg-12 col-md-6 footer-contact">
+                  <h4>Contactanos</h4>
+                  <p class="contactBody">
+                    Neuquén Oeste 1383 oeste<br>
+                    J5413 Chimbas<br>
+                    San Juan, Argentina. <br>
+                    
+                    <strong></strong>Tel: +54 264 444-5345<br>
+                  </p>
+      
+                  <div class="social-links">
+                    
+                    <a href="https://instagram.com/naturelgourmet?igshid=MzRlODBiNWFlZA==" class="facebook"   target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/naturelgourmet/" class="instagram"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      
+                  </div>
+      
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="container">
+            <div class="copyright">
+              &copy; Ley Guardia 2023
+            </div>
+          </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
