@@ -1,228 +1,23 @@
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import "reset";
 @import "variebles";
+@import "extends";
+@import"mixins";
 @import "navbar";
+@import "resumen";
+@import "tostadas";
+@import "info";
+@import "links";
+@import "mapa";
+@import "redes";
+@import "logotipos";
 @import "logo";
-@import "tips1";
+@import "tips";
 @import "carousel1";
 @import "tarjetas";
 @import "carousel2";
-
-
-
-.resumen {
-    margin: 55px;
-    color: $bg-color;
-    font-size: 25px;
-    text-align: justify;
-    text-justify: inter-word;
-    font-weight: 300;
-    font-family: $font-fam;
-}
-
-.frascoetiqueta img{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50%; 
-  width: 100%;
-}
-
-
-.logotiposRow{
-    background-color:#FAAE5B;   
-}
-.logotipos {
-    margin: 0px;
-    padding: 30px 0px 30px 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#FAAE5B;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-}
-.img-fluid {
-    max-width: 100%;
-}
-
-.mapa{
-  width: 100%;
-   
-}
-
-.redes i{
-    padding: 15px;
-    font-size: 50px;
-    margin: 20px;
-    color:#FAAE5B;
-
-}
-.info{
-  text-align: left;
-  font-family: $font-fam;
-
-}
-.links{
-  font-family: $font-fam;
-}
-
-
-
-
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
-#footer {
-    background:darkslategrey;
-    padding: 0 0 30px 0;
-    color: #FDFDFD;
-    font-family: $font-fam;
-    font-size: 14px;
-    padding: 30px;
-  }
-  
-  #footer .footer-top {
-    background: darkslategrey;
-    padding: 0px 0px 0px 0px;
-  }
-  
-  #footer .footer-top .footer-info {
-    margin-bottom: 30px;
-  }
-  
-  #footer .footer-top .footer-info h3 {
-    font-size: 14px;
-    margin: 0 0 20px 0;
-    padding: 2px 0 2px 0;
-    line-height: 1;
-    font-family: $font-fam;
-    color:#FDFDFD ;
-    font-weight: bold;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-  }
-  
-  #footer .footer-top .footer-info p {
-    font-size: 13px;
-    line-height: 24px;
-    margin-bottom: 0;
-    font-family: $font-fam;
-    color: #FDFDFD;
-  }
-  
-  #footer .footer-top .social-links a {
-    font-size: 18px;
-    display: inline-block;
-    background: darkslategrey;
-    color: #FDFDFD;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    border:solid white 0px;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-  }
-  
-  
-  #footer .footer-top h4 {
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 10px;
-  }
-  
-  #footer .footer-top .footer-links {
-    margin-bottom: 30px;
-  }
-  
-  #footer .footer-top .footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #footer .footer-top .footer-links ul li {
-    padding: 8px 0;
-  }
-  
-  #footer .footer-top .footer-links ul li:first-child {
-    padding-top: 0;
-  }
-  
-  #footer .footer-top .footer-links ul a {
-    color: #ecf5ff;
-  }
-  
-  #footer .footer-top .footer-links ul a:hover {
-    color: #74b5fc;
-  }
-  .contactBody{
-    font-weight: 200;
-  }
-  #footer .footer-top .footer-contact {
-    margin-bottom: 30px;
-  }
-  
-  #footer .footer-top .footer-contact p {
-    line-height: 26px;
-  }
-    
-  
-  #footer .copyright {
-    text-align: center;
-    padding-top: 30px;
-  }
-  
-  #footer .credits {
-    text-align: center;
-    font-size: 13px;
-    color: #f1f7ff;
-  }
-  
-  #footer .credits a {
-    color: #bfddfe;
-  }
-  
-  #footer .credits a:hover {
-    color: #f1f7ff;
-  }
-  
-
-
-
-  /* RECETAS */
-.azucar{
-  margin: 0px;
-  padding: 30px 0px 30px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color:#23483F;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-
-}
-  
-
-
-
-
-
-
-
+@import "receta";
 
 
