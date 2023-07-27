@@ -1,0 +1,35 @@
+
+.CarouselTitulo{   
+    font-size: 30px;
+    font-family: $font-fam;
+    font-weight: 600;
+    color: #FDFDFD
+}
+.myCarouselDiv{
+    background: #F2A25C;
+    padding: 10px 20px 50px 20px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+.item img {
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+  @media (max-width: 767px) {
+   
+     .carousel-control{
+      width: 30px;
+      height: 30px;
+    }
+  .carousel-inner{
+        width: 100%;
+        height: 30vh;
+      }
+  }

@@ -1,0 +1,38 @@
+.variedad {
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    p {
+      margin: 10px 0;
+      font-family: $font-fam;
+    color:$bg-color ;
+    }
+    img {
+      width: 150px; 
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: darkslategrey;
+      color: #ffffff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: $font-fam;
+    }
+    button:hover {
+      background-color: $bg-color;
+    }
+    
+  }
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  

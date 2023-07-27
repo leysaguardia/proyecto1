@@ -1,0 +1,48 @@
+.carousel {
+    margin: 20px 0;
+  }
+  
+  .carousel-item img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#f1f7ff;
+    text-align: center;
+    font-family: $font-fam;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: $font-fam;
+  }
+  
+  .carousel-caption p {
+    font-size: 18px;
+    font-family: $font-fam;
+  }
+  .carousel-control-prev-icon .carousel-control-next-icon {
+    width: 20px;
+    height: 20px;
+    
+  }
+  
+  .carousel-control-prev {
+    margin-left: -20px;
+  }
+  
+  .carousel-control-next {
+    margin-right: -20px;
+  }
+  
+  @media (max-width: 768px) {
+    .variedad {
+      flex: 0 0 100%;
+    }
+  }

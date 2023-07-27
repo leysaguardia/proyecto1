@@ -1,0 +1,41 @@
+.tips1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 50px;
+    color:$bg-color;
+    font-size: 20px;
+    font-family: $font-fam;
+    flex-direction: column;
+      .col {
+        text-align: center;
+      }
+      h4 {
+        font-size: 20px;
+         margin-top: 10px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+
+}
+.tips2 {
+    list-style: none;
+    padding: 0;
+    font-family: $font-fam;
+    color:$bg-color ;
+    li {
+      margin-bottom: 5px;
+    }
+  }
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .consumo {
+    margin-bottom: 10px;
+    font-family: $font-fam;
+    color: darkslategrey;
+  }
